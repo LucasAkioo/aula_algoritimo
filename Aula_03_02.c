@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 int main(){
-    int V1;
-    printf("Digite um valor:");
-    scanf("%d", &V1);
+    float V1;
+    printf("Digite um valor: ");
+    scanf("%f", &V1);
 
-    int V2;
-    printf("Digite um valor:");
-    scanf("%d", &V2);
+    float V2;
+    printf("Digite um valor: ");
+    scanf("%f", &V2);
 
-    int V3;
-    printf("Digite um valor:");
-    scanf("%d", &V3);
+    float V3;
+    printf("Digite um valor: ");
+    scanf("%f", &V3);
 
-    int soma = V1 + V2 + V3;
-    printf("O valor total dos tres itens somados e %d", soma);
+    float soma = V1 + V2 + V3;
+    float media = (V1 + V2 + V3) / 3;
+
+    printf("A soma dos tres itens e %f\n", soma);
+    printf("A media dos tres itens e %f", media);
     return 0;
 }
