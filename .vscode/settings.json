@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "aula_10_sequencia_de_inteiros": "c"
     }
 }
