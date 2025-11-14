@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "aula_10_sequencia_de_inteiros": "c"
+        "aula_10_sequencia_de_inteiros": "c",
+        "locale.h": "c"
     }
 }
